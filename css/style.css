@@ -1,0 +1,673 @@
+@font-face { 
+	font-family: GothamRoundedBold;
+	src: url(../fonts/GothamRounded-Bold.otf);
+}
+
+@font-face { 
+	font-family: GothamRoundedMedium;
+	src: url(../fonts/GothamRoundedMedium_21022.ttf);
+}
+
+@font-face { 
+	font-family: GothamRoundedBook;
+	src: url(../fonts/GothamRounded-Book.otf);
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.page-header {
+	/*margin: 0 auto;*/
+	background: url(../img/background.png) no-repeat 0 0;
+	height: 745px;
+	width: 1280px;
+	z-index: 1;
+}
+
+.main-nav {
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav a {
+	color: white;
+	text-decoration: none;
+	font-family: "GothamRoundedBold"; 
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 25;
+	position: absolute;
+	z-index: 8;
+}
+
+.home {	
+	letter-spacing: 2.45px;
+	font-size: 16px;
+	left: 271.937px;
+	top: -120.5px;	
+}
+
+.photoapp {
+	letter-spacing: 2.45px;
+	font-size: 16px;
+	left: 394.937px;
+	top: -120.5px;
+}
+
+.photo {
+	position: absolute;
+	left: 607px;
+	top: 40px;
+	width: 53px;
+	height: 55px;
+	z-index: 8;
+}
+
+.design {
+	letter-spacing: 2.45px;
+	font-size: 16px;
+	left: 756.937px;
+	top: -120.5px;
+}
+
+.download {
+	letter-spacing: 2.45px;
+	font-size: 16px;
+	left: 910.937px;
+	top: -120.5px;
+}
+
+.main-text {
+	font-size: 36px;
+	font-family: "GothamRoundedBold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 390.096px;
+	top: 298px;
+	z-index: 620;
+	letter-spacing: 5.42px;
+}
+
+.submain-text {
+	font-size: 16px;
+	font-family: "GothamRoundedMedium";
+	color: rgb(255, 255, 255);
+	line-height: 22;
+	position: absolute;
+	left: 475.002px;
+	top: 201.546px;
+	z-index: 18;
+	letter-spacing: 2.39px;
+}
+
+.header-middle .button {
+	border-radius: 3px;
+	background-color: rgb(22, 160, 133);
+	position: absolute;
+	left: 557px;
+	top: 428px;
+	width: 166px;
+	height: 49px;
+	z-index: 19;
+}
+
+.header-middle .getstart {
+	font-size: 12px;
+	font-family: "GothamRoundedBold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 33.333;
+	position: absolute;
+	left: 587.937px;
+	top: 254.002px;
+	z-index: 20;
+	letter-spacing: 1.89px;
+}
+
+.dribbble {
+	position: absolute;
+	left: 669px;
+	top: 699px;
+	width: 20px;
+	height: 21px;
+	z-index: 15;
+}
+
+.flickr {
+	border-radius: 0px;
+	position: absolute;
+	left: 630px;
+	top: 699px;
+	width: 23px;
+	height: 20px;
+	z-index: 14;
+}
+
+.twitter {
+	position: absolute;
+	left: 591px;
+	top: 699px;
+	width: 23px;
+	height: 20px;
+	z-index: 13;
+}
+
+.firstbody {
+	background-color: rgb(245, 246, 247);
+	position: absolute;
+	left: 0px;
+	top: 745px;
+	width: 1280px;
+	height: 494px;
+	z-index: 24;
+}
+
+.iphone {
+	position: absolute;
+	left: 510px;
+	top: 91px;
+	width: 642px;
+	height: 701px;
+	z-index: 25;
+}
+
+
+.firstbody p:first-of-type {
+	font-size: 18px;
+	font-family: "GothamRoundedBold";
+	color: rgb(22, 160, 133);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 128.096px;
+	top: 91.108px;
+	z-index: 620;
+	letter-spacing: 2.7px;
+}
+
+.firstbody p:last-of-type {
+	font-size: 12px;
+	font-family: "GothamRoundedBook";
+	color: rgb(55, 55, 55);
+	line-height: 2;
+	position: absolute;
+	left: 127.105px;
+	top: 177.992px;
+	width: 450px;
+	height: 107px;
+	z-index: 617;
+	letter-spacing: 1.8px;
+}
+
+.firstbody .button {
+	border-radius: 3px;
+	background-color: rgb(22, 160, 133);
+	position: absolute;
+	left: 129px;
+	top: 350.5px;
+	width: 192px;
+	height: 51px;
+	z-index: 618;
+}
+
+
+.firstbody .getstart {
+	font-size: 12px;
+	font-family: "GothamRoundedBold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.667;
+	position: absolute;
+	left: 171.937px;
+	top: 368.998px;
+	z-index: 619;
+	letter-spacing: 1.89px;
+}
+
+.secondbody {
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	left: 0px;
+	top: 1237px;
+	width: 1280px;
+	height: 558px;
+	z-index: 32;
+}
+
+.iphone5c {
+	position: absolute;
+	left: 124px;
+	top: 146px;
+	width: 314px;
+	height: 617px;
+	z-index: 626;
+}
+
+.secondbody p:first-of-type {
+	font-size: 18px;
+	font-family: "GothamRoundedBold";
+	color: rgb(22, 160, 133);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.222;
+	position: absolute;
+	left: 765.844px;
+	top: 124.002px;
+	z-index: 627;
+	letter-spacing: 2.6px;
+}
+
+.secondbody p:nth-of-type(2) {
+	font-size: 12px;
+	font-family: "GothamRoundedBook";
+	color: rgb(55, 55, 55);
+	line-height: 1.833;
+	position: absolute;
+	left: 768.105px;
+	top: 186.992px;
+	width: 450px;
+	height: 99px;
+	z-index: 628;
+	letter-spacing: 1.8px;
+	line-height: 1.835;
+
+}
+
+.secondbody p:last-of-type {
+	font-size: 12px;
+	font-family: "GothamRoundedBold";
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.833;
+	text-align: left;
+	position: absolute;
+	left: 766.937px;
+	top: 424.002px;
+	z-index: 631;
+	letter-spacing: 1.8px;
+}
+
+
+.secondbody .button {
+	background-color: rgb(22, 160, 133);
+	position: absolute;
+	left: 767px;
+	top: 345px;
+	width: 192px;
+	height: 51px;
+	z-index: 624;
+
+}
+
+.secondbody .more {
+	font-size: 12px;
+	font-family: "GothamRoundedBold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.667;
+	position: absolute;
+	left: 809.937px;
+	top: 360.998px;
+	z-index: 625;
+	letter-spacing: 1.78px;
+}
+
+.secondbody a.left img {
+	position: absolute;
+	left: 767px;
+	top: 460px;
+	width: 11px;
+	height: 16px;
+	z-index: 630;
+}
+
+.secondbody a.right img {
+	position: absolute;
+	left: 799px;
+	top: 460px;
+	width: 11px;
+	height: 16px;
+	z-index: 630;
+}
+
+
+
+.thirdbody {
+	background-color: rgb(245, 246, 247);
+	position: absolute;
+	left: 0px;
+	top: 1795px;
+	width: 1280px;
+	height: 483px;
+	z-index: 634;
+
+}
+
+.thirdbody img.photogreen {
+	position: absolute;
+	left: 187px;
+	top: 165px;
+	width: 59px;
+	height: 55px;
+	z-index: 635;
+}
+
+.thirdbody img.car {
+	position: absolute;
+	left: 386px;
+	top: 121px;
+	width: 370px;
+	height: 244px;
+	z-index: 638;
+}
+
+.thirdbody img.tree {
+	position: absolute;
+	left: 780px;
+	top: 121px;
+	width: 371px;
+	height: 244px;
+	z-index: 639;
+}
+
+.thirdbody a.right img {
+	position: absolute;
+	left: 1140px;
+	top: 95px;
+	width: 11px;
+	height: 16px;
+	z-index: 640;
+}
+
+.thirdbody a.left img {
+	position: absolute;
+	left: 1113px;
+	top: 95px;
+	width: 11px;
+	height: 16px;
+	z-index: 640;
+}
+
+.thirdbody p:first-of-type {
+	font-size: 16px;
+	font-family: "GothamRoundedBold";
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.25;
+	position: absolute;
+	left: 127.937px;
+	top: 231.5px;
+	z-index: 637;
+	letter-spacing: 2.4px;
+}
+
+.thirdbody p:last-of-type {
+	font-size: 10px;
+	font-family: "GothamRoundedMedium";
+	color: rgb(55, 55, 55);
+	line-height: 1.2;
+	text-align: center;
+	position: absolute;
+	left: 138px;
+	top: 275.568px;
+	width: 160px;
+	height: 34px;
+	z-index: 636;
+	letter-spacing: 1.5px;
+}
+
+
+.fourthbody {
+	background-image: url("../img/background1.png");
+	position: absolute;
+	left: 0px;
+	top: 2279px;
+	width: 1280px;
+	height: 790px;
+	z-index: 644;
+
+}
+
+.fourthbody p {
+	font-size: 24px;
+	font-family: "GothamRoundedBold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 402.274px;
+	top: 323px;
+	z-index: 645;
+	letter-spacing: 3.6px;
+}
+
+.fourthbody input[type="text"] {
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	left: 467px;
+	top: 404px;
+	width: 260px;
+	height: 57px;
+	z-index: 646;
+	border-radius: 3px 0px 0px 3px;
+	border: none;
+}
+
+.fourthbody input[type="submit"] {
+	background: url(../img/check.png) no-repeat 53% 55%;
+	background-color: rgb(22, 160, 133);
+	position: absolute;
+	left: 747px;
+	top: 404px;
+	width: 63px;
+	height: 60px;
+	z-index: 647;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+}
+
+
+
+input[placeholder] {
+	font-size: 16px;
+	font-family: "GothamRoundedMedium";
+	color: rgba(55, 55, 55);
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 588.347px;
+	top: 2703.9px;
+	z-index: 649;
+	letter-spacing: 2.5px;
+	padding-left: 20px;
+	padding-top: 2px;
+}
+
+
+.fifthbody {
+	background-color: rgb(245, 246, 247);
+	position: absolute;
+	left: 0px;
+	top: 3068px;
+	width: 1280px;
+	height: 396px;
+	z-index: 652;
+}
+
+
+
+.fifthbody p:last-of-type {
+	font-size: 12px;
+	font-family: "GothamRoundedMedium";
+	color: rgb(55, 55, 55);
+	text-transform: uppercase;
+	line-height: 1.888;
+	text-align: center;
+	position: absolute;
+	left: 190.893px;
+	top: 105.992px;
+	width: 900px;
+	height: 54px;
+	z-index: 654;
+	letter-spacing: 1.8px;
+}
+
+.fifthbody p:first-of-type {
+	font-size: 20px;
+	font-family: "GothamRoundedBold";
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 546.87px;
+	top: 67px;
+	z-index: 653;
+	letter-spacing: 2.95px;
+}
+
+.fifthbody .apple {
+	background-color: rgb(26, 188, 156);
+	position: absolute;
+	left: 330px;
+	top: 224px;
+	width: 240px;
+	height: 56px;
+	z-index: 655;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.fifthbody .apple1 {
+	background: url(../img/apple.png) no-repeat 48% 50%;
+	background-color: rgb(22, 160, 133);
+	position: absolute;
+	left: 570px;
+	top: 224px;
+	width: 56px;
+	height: 56px;
+	z-index: 656;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.fifthbody .play {
+	background-color: rgb(26, 188, 156);
+	position: absolute;
+	left: 652px;
+	top: 224px;
+	width: 240px;
+	height: 56px;
+	z-index: 655;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.fifthbody .play1 {
+	background: url(../img/android.png) no-repeat 53% 53%;
+	background-color: rgb(22, 160, 133);
+	position: absolute;
+	left: 892px;
+	top: 224px;
+	width: 56px;
+	height: 56px;
+	z-index: 656;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.fifthbody .apple span {
+	font-size: 16px;
+	font-family: "GothamRoundedBold";
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 22.937px;
+	top: 21px;
+	z-index: 999;
+	width: auto;
+	letter-spacing: 2.4px;
+}
+
+.fifthbody .play span {
+	font-size: 17px;
+	font-family: "GothamRoundedBold";
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 30.937px;
+	top: 19px;
+	z-index: 999;
+	width: auto;
+	letter-spacing: 3.3px;
+}
+
+.footer div:first-of-type {
+	font-size: 14px;
+	font-family: "GothamRoundedBold";
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: absolute;
+	left: 124.937px;
+	top: 3507.82px;
+	z-index: 668;
+	letter-spacing: 2.1px;
+}
+
+
+.footer span {
+	color: #16A085;
+}
+
+.footer img {
+	position: absolute;
+	left: 1098px;
+	top: 3502px;
+	width: 53px;
+	height: 55px;
+	z-index: 666;
+	margin-bottom: 50px;
+}
+
+.footer div:last-of-type {
+	font-size: 14px;
+	font-family: "GothamRoundedBold";
+	color: rgb(55, 55, 55);
+	font-weight: bold;
+	line-height: 1.2;
+	position: absolute;
+	left: 125.937px;
+	top: 3543.85px;
+	z-index: 667;
+	letter-spacing: 2.1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
